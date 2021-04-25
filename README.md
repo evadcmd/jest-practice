@@ -14,3 +14,13 @@ module.exports = {
   presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
 };
 ```
+
+## Run esm using babel
+
+```bash
+$ yarn add --dev babel-node
+```
+
+```bash
+$ npx babel-node --presets @babel/preset-env ${filename}
+```
